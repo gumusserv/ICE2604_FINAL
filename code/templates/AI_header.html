@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>寻章</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="/static/css/mdb.min.css" />
+    <!-- bounce -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script> -->
+    <script src="/static/js/jquery.js"></script>
+    <script type="text/javascript">
+      $(function (){
+        setInterval("play()",5000)
+      })
+
+      function play() {
+        $.getJSON('/AIdata/header/keyword={{ keyword }}').done(function (data){
+          varse1=data["sentence1"];
+          varse2=data["sentence2"];
+          // varse_source=data["random_varse"][1]
+        })
+      
+        
+        document.getElementById("famous_verse_content").innerHTML = varse1;
+        document.getElementById("famous_verse_content1").innerHTML = varse2;
+        // document.getElementById("famous_verse_source").innerHTML = varse_source;
+        requestAnimationFrame((time) => {
+          requestAnimationFrame((time) => {
+            document.getElementById("verse").className = "lead animate__animated animate__bounce";
+          });
+        });
+        document.getElementById("verse").className="lead animate__animated";
+      }
+    </script>
+
+</head>
+<body>
+      <!--Main Navigation-->
+
+    <style>
+      #intro {
+        background-image: url("../static/featue-bg.jpg");
+        height: 100vh;
+      }
+
+      /* Height for devices larger than 576px */
+      @media (min-width: 992px) {
+        #intro {
+          margin-top: -58.59px;
+        }
+      }
+
+      .navbar .nav-link {
+        color: rgb(1, 0, 0) !important;
+      }
+    </style>
+
+    <!-- Navbar-->
+    <nav class="navbar navbar-expand-lg" style="z-index: 2000;">
+      <div class="container-fluid justify-content-between">
+        <!-- Left elements -->
+        <div class="d-flex">
+          <!-- Brand -->
+          <a class="navbar-brand nav-link">
+            <strong>寻章</strong>
+          </a>
+        </div>
+        <!-- Left elements -->
+
+        <!-- Right elements -->
+        <ul class="navbar-nav ms-auto">
+          <a class="navbar-brand nav-link" href="../">首页</a>
+          
+          <a class="navbar-brand nav-link" href="../poetry">诗文</a>
+          <a class="navbar-brand nav-link" href="../varses/page=1">名句</a>
+          <!-- <a class="navbar-brand nav-link" href="./author?dynasty=唐代&page=1" >作者</a> -->
+          <a class="navbar-brand nav-link" href="../author/dynasty=不限/page=1" >作者</a>
+          <a class="navbar-brand nav-link" href="../AIPoetry" >AI创作</a>
+        </ul>
+        <!-- Search form -->
+       
+        <!-- Right elements -->
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <div id="intro" class="bg-image shadow-2-strong animate__animated animate__fadeIn">
+      <div class="mask" >
+        <div class="container d-flex align-items-center justify-content-center text-center h-100">
+          <div class="container py-5 h-100">
+            
+            
+            <div class="row d-flex justify-content-center align-items-center h-100">
+              
+              <div class="col col-lg-9 col-xl-7">
+                <div class="card" style="border-radius: 15px; background-color: #ffffff29;">
+                  <div class="card-body p-5">
+        
+        
+                    <figure class="text-center mb-0" >
+                      <blockquote class="blockquote">
+                        <p class="pb-3" id="verse">
+                          <form class="input-group w-auto my-auto d-none d-sm-flex" action="./header">
+                            <input
+                              autocomplete="off"
+                              type="search"
+                              class="form-control rounded"
+                              placeholder="在此输入创作藏头诗"
+                              style="min-width: 25px;"
+                              name="keyword"
+                              
+                            />
+                            <button id="search-button" type="search" class="btn btn-primary">
+                              <i class="fas fa-search"></i>
+                            </button>
+                          </form>
+                          <br>
+                          <form class="input-group w-auto my-auto d-none d-sm-flex" action="./complete">
+                            <input
+                              autocomplete="off"
+                              type="search"
+                              class="form-control rounded"
+                              placeholder="在此输入根据输入诗句补全诗歌"
+                              style="min-width: 25px;"
+                              name="keyword"
+                              
+                            />
+                            <button id="search-button" type="search" class="btn btn-primary">
+                              <i class="fas fa-search"></i>
+                            </button>
+                          </form>
+                          <br>
+
+                          <span  id="famous_verse_content" class="lead" style="font-size:2rem;font-family: 楷体;">
+                            {{ sentence1 }}。
+                          </span>
+                          <br>
+                          <span  id="famous_verse_content1" class="lead" style="font-size:2rem;font-family: 楷体;">
+                            {{ sentence2 }}。
+                          </span>
+                        </p>
+                      </blockquote>
+                      <!-- <figcaption class="blockquote-footer mb-0" style="font-size:1rem;">
+                        <span  id="famous_verse_source">电工B第三小组</span>
+                      </figcaption> -->
+                    </figure>
+        
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+<script src="../static/js/yinhua.js"></script>
+</html>

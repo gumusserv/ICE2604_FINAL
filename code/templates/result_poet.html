@@ -1,0 +1,94 @@
+<html>
+	
+<header>
+    <link rel="stylesheet" href="/static/css/varses.css" />
+    <link rel="stylesheet" href="/static/css/button.css" />
+    <link rel="stylesheet" href="/static/css/menu.css" />
+    
+</header>
+<body>
+    <div class="c-magic-area c-magic-area--menu" data-target-class=".c-main-menu__link" data-tween-back="true" aria-hidden="true"></div>
+    <div class="c-magic-area c-magic-area--content" data-target-class=".c-article__link" data-tween-back="false" aria-hidden="true"></div>
+
+    <main id="page" class="o-page">
+    <header class="o-header">
+        <h1 class="c-logo"><a class="c-logo__link" href="../../" target="_blank">寻章</a></h1>
+        <nav class="c-main-menu" aria-labelledby="mainmenulabel">
+        <h2 id="mainmenulabel" class="u-visually-hidden">Main Menu</h2>
+        <ul class="c-main-menu__list">
+            <li><a class="c-main-menu__link" href="../../">首页</a></li>
+            <li><a aria-current="page" class="is-magic-active c-main-menu__link" href="../../poetry/">诗文</a></li>
+            <li><a class="c-main-menu__link" href="../../author/">诗人</a></li>
+            <li><a class="c-main-menu__link" href="../../varses/page=1">名句</a></li>
+            <li><a class="c-main-menu__link" href="../../AIPoetry">AI创作</a></li>
+        </ul>
+        
+        </nav>
+    </header>
+
+    <section class="o-main-section">
+        <h2 class="c-main-heading">{{ keyword }}</h2>
+        
+        <div class="tabs">
+            <input type="radio" id="radio-1" name="tabs" checked />
+            <label class="tab" for="radio-1" >
+                <a href="../content=name/page=1?keyword={{ keyword }}">题目</a>
+            </label>
+
+
+            <input type="radio" id="radio-2" name="tabs" />
+            <label class="tab" for="radio-2">
+                <a href="../content=content/page=1?keyword={{ keyword }}">内容</a>
+            </label>
+
+            <input type="radio" id="radio-3" name="tabs" />
+            <label class="tab" for="radio-3">
+                <a href="../content=tag/page=1?keyword={{ keyword }}">题材</a>
+            </label>
+
+            <input type="radio" id="radio-4" name="tabs" />
+            <label class="tab" for="radio-4">
+                <a href="../content=poet/page=1?keyword={{ keyword }}">诗人</a>
+            </label>
+            
+        </div>
+        {% for poet in poets %}
+        <article class="c-article">
+        <a class="c-article__link" href="../../author/poetid={{ poet[0] }}">
+            <div>
+            <header>
+                <h3 class="c-article__heading">{{ poet[1] }}</h3>
+            </header>
+            
+            <div class="c-article__content">
+                {{ poet[3] }}
+            </div>
+            </div>
+            <div class="c-article__img-wrapper">
+            <img class="c-article__img" src="{{ poet[4] }}" alt="Responsive Mondrian art with CSS grid" />
+            </div>
+        </a>
+        </article>
+        {% endfor %}
+    </section>
+    </main>
+
+    
+    <div align="center" style="position:relative;top:10px">
+        <button onclick="location.href=('./page={{ page - 1 }}?keyword={{ keyword }}')" class="bubbly-button" style="text-align: center;" >上一页</button>
+        <button onclick="location.href=('./page={{ page + 1 }}?keyword={{ keyword }}')" class="bubbly-button" style="text-align: center;">下一页</button>
+    
+    </div>
+    
+    
+    <script src="/static/js/button.js"></script>
+    <script src="/static/js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+   
+    <script src="/static/js/varses.js"></script>
+    <script src="/static/js/yinhua.js"></script>
+    
+</body>
+  
+  
+</html>

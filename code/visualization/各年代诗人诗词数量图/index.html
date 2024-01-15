@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>各年代诗词与诗人数量图</title>
+        <!-- 引入 ECharts 文件 -->
+        <script src="echarts.js"></script>
+    </head>
+    <body>
+        <div id="main" style="width: 600px;height:400px;"></div>
+        <script type="text/javascript">
+            var  option = {
+                    tooltip: {
+                        trigger: 'axis'
+                    },
+                    //legend: {
+                    //    data:['销量','所占比率']
+                    //},
+                    xAxis: [
+                        {
+                            type: 'category',
+                            data: ['两汉','五代','魏晋','南北朝','唐代','宋代','金朝','元代','明代','清代']
+                        }
+                    ],
+                    yAxis: [
+                        {
+                            type: 'value',
+                            name: '诗词数量',
+                            position: 'left',
+                            alignTicks: true,
+                            axisLine: {
+                            show: true,
+                            },
+                            min: 0,
+                            max: 100000,
+                            interval: 10000,
+                            axisLabel: {
+                                formatter: '{value} '
+                            }
+                        },
+                        {
+                          type: 'value',
+                          name: '诗人数量',
+                          position: 'right',
+                          alignTicks: true,
+
+                          axisLine: {
+                            show: true,
+                          },
+                            min: 0,
+                            max: 3540,
+                            interval: 500,
+                          axisLabel: {
+                            formatter: '{value}'
+                          }
+                        },
+                    ],
+
+                    series: [
+
+                        {
+                            name:'诗词总量',
+                            type:'bar',
+
+                            /*设置柱状图颜色*/
+                            itemStyle: {
+                                
+                                color: function(params) {
+                                    // build a color map as your need.
+                                    var colorList = [
+                                        '#40E0D0','#FFFF00','	#FF0000','#00FFFF','#800000',
+                                        '#E15328','#2691E4','#2FAB3C','#4E37E1','#D716E5',
+                                    ];
+                                    return colorList[params.dataIndex]
+                                },
+                                /*信息显示方式*/
+                                label: {
+                                    show: true,
+                                    position: 'top',
+                                    formatter: '{b}\n{c}'
+                                }
+                            },
+                            data:[1751,1866,1866,5295,41183,98026,5815,30239,94036,43016]
+                        },
+                        {
+                            name:'诗人数量',
+                            type:'line',
+                            yAxisIndex: 1,
+                            itemStyle : {  /*设置折线颜色*/
+                                normal : {
+                                   color:'#220406'
+                                }
+                            },
+                            data:[309,365,386,264,2057,2457,358,578,2395,3529]
+                        }
+                    ]
+            };
+            // 基于准备好的dom，初始化echarts实例
+            var myChart = echarts.init(document.getElementById('main'));
+            // 使用刚指定的配置项和数据显示图表。
+            myChart.setOption(option);
+        </script>
+    </body>
+</html>

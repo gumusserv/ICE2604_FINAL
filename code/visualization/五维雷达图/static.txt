@@ -1,0 +1,312 @@
+value: [ 4 , 3 , 3 , 5 , 3 ] ,
+name:'  姚鼐  '
+value: [ 4 , 4 , 4 , 4 , 2 ] ,
+name:'  黄遵宪  '
+value: [ 5 , 3 , 4 , 5 , 4 ] ,
+name:'  屈大均  '
+value: [ 4 , 4 , 5 , 3 , 5 ] ,
+name:'  丘逢甲  '
+value: [ 5 , 4 , 3 , 3 , 5 ] ,
+name:'  陈恭尹  '
+value: [ 4 , 3 , 4 , 2 , 4 ] ,
+name:'  陈维崧  '
+value: [ 5 , 4 , 5 , 2 , 4 ] ,
+name:'  陈忠平  '
+value: [ 5 , 3 , 4 , 2 , 2 ] ,
+name:'  龚自珍  '
+value: [ 4 , 5 , 3 , 4 , 4 ] ,
+name:'  王翰  '
+value: [ 5 , 4 , 4 , 5 , 5 ] ,
+name:'  王质  '
+value: [ 4 , 5 , 5 , 5 , 4 ] ,
+name:'  苏轼  '
+value: [ 5 , 5 , 4 , 3 , 5 ] ,
+name:'  陆游  '
+value: [ 4 , 5 , 4 , 5 , 3 ] ,
+name:'  朱熹  '
+value: [ 5 , 5 , 4 , 5 , 2 ] ,
+name:'  贺铸  '
+value: [ 5 , 3 , 5 , 4 , 4 ] ,
+name:'  辛弃疾  '
+value: [ 4 , 4 , 3 , 4 , 5 ] ,
+name:'  王安石  '
+value: [ 5 , 3 , 3 , 2 , 5 ] ,
+name:'  欧阳修  杨万里  '
+value: [ 5 , 3 , 4 , 5 , 4 ] ,
+name:'  黄庭坚  '
+value: [ 5 , 5 , 3 , 5 , 4 ] ,
+name:'  文天祥  '
+value: [ 5 , 3 , 4 , 5 , 2 ] ,
+name:'  郭祥正  '
+value: [ 5 , 4 , 3 , 3 , 5 ] ,
+name:'  项安世  '
+value: [ 4 , 5 , 5 , 5 , 2 ] ,
+name:'  程公许  '
+value: [ 4 , 4 , 3 , 5 , 4 ] ,
+name:'  周必大  '
+value: [ 5 , 3 , 5 , 5 , 3 ] ,
+name:'  强至  '
+value: [ 5 , 3 , 3 , 3 , 5 ] ,
+name:'  陆文圭  '
+value: [ 5 , 3 , 3 , 2 , 3 ] ,
+name:'  文同  '
+value: [ 5 , 5 , 4 , 4 , 5 ] ,
+name:'  韩淲  '
+value: [ 4 , 5 , 4 , 4 , 4 ] ,
+name:'  韦骧  '
+value: [ 5 , 3 , 4 , 5 , 4 ] ,
+name:'  葛胜仲  '
+value: [ 5 , 5 , 5 , 4 , 4 ] ,
+name:'  洪适  '
+value: [ 5 , 4 , 3 , 4 , 5 ] ,
+name:'  赵蕃  '
+value: [ 5 , 4 , 5 , 5 , 4 ] ,
+name:'  王之道  '
+value: [ 4 , 4 , 5 , 2 , 4 ] ,
+name:'  陈著  '
+value: [ 4 , 3 , 3 , 2 , 5 ] ,
+name:'  释德洪  '
+value: [ 4 , 3 , 4 , 3 , 3 ] ,
+name:'  黄裳  '
+value: [ 4 , 5 , 4 , 4 , 4 ] ,
+name:'  张嵲  '
+value: [ 4 , 4 , 3 , 2 , 5 ] ,
+name:'  孔平仲  '
+value: [ 5 , 5 , 4 , 2 , 4 ] ,
+name:'  岳珂  '
+value: [ 5 , 3 , 3 , 5 , 2 ] ,
+name:'  释居简  '
+value: [ 4 , 5 , 4 , 3 , 2 ] ,
+name:'  韩维  '
+value: [ 5 , 4 , 4 , 2 , 4 ] ,
+name:'  许及之  '
+value: [ 4 , 5 , 5 , 5 , 5 ] ,
+name:'  王庭圭  '
+value: [ 4 , 4 , 4 , 2 , 5 ] ,
+name:'  楼钥  '
+value: [ 4 , 5 , 5 , 3 , 5 ] ,
+name:'  刘子翚  '
+value: [ 4 , 3 , 5 , 2 , 4 ] ,
+name:'  宋庠  '
+value: [ 4 , 4 , 5 , 4 , 5 ] ,
+name:'  徐积  '
+value: [ 5 , 4 , 5 , 4 , 5 ] ,
+name:'  白玉蟾  '
+value: [ 5 , 3 , 5 , 2 , 2 ] ,
+name:'  张耒  '
+value: [ 5 , 3 , 4 , 4 , 5 ] ,
+name:'  张镃  '
+value: [ 5 , 3 , 3 , 2 , 5 ] ,
+name:'  李弥逊  '
+value: [ 5 , 5 , 3 , 3 , 4 ] ,
+name:'  周紫芝  '
+value: [ 5 , 3 , 3 , 5 , 5 ] ,
+name:'  曹勋  '
+value: [ 5 , 4 , 4 , 3 , 5 ] ,
+name:'  耶律铸  '
+value: [ 4 , 4 , 3 , 3 , 5 ] ,
+name:'  方岳  '
+value: [ 5 , 3 , 4 , 2 , 4 ] ,
+name:'  司马光  '
+value: [ 4 , 5 , 5 , 2 , 3 ] ,
+name:'  刘攽  '
+value: [ 4 , 4 , 4 , 2 , 3 ] ,
+name:'  李纲  '
+value: [ 4 , 5 , 5 , 3 , 5 ] ,
+name:'  戴复古  '
+value: [ 5 , 5 , 4 , 3 , 4 ] ,
+name:'  宋祁  '
+value: [ 4 , 3 , 5 , 2 , 5 ] ,
+name:'  韩元吉  '
+value: [ 4 , 3 , 5 , 4 , 3 ] ,
+name:'  李之仪  '
+value: [ 5 , 4 , 4 , 3 , 3 ] ,
+name:'  梅尧臣  '
+value: [ 5 , 4 , 4 , 5 , 4 ] ,
+name:'  张孝祥  '
+value: [ 5 , 3 , 5 , 2 , 2 ] ,
+name:'  陈师道  '
+value: [ 5 , 4 , 3 , 5 , 4 ] ,
+name:'  范成大  '
+value: [ 5 , 3 , 4 , 3 , 5 ] ,
+name:'  周密  '
+value: [ 5 , 5 , 4 , 4 , 4 ] ,
+name:'  王炎  '
+value: [ 4 , 4 , 3 , 3 , 2 ] ,
+name:'  李曾伯  '
+value: [ 5 , 5 , 4 , 4 , 4 ] ,
+name:'  刘克庄  '
+value: [ 4 , 5 , 3 , 4 , 5 ] ,
+name:'  晁补之  '
+value: [ 5 , 4 , 4 , 4 , 2 ] ,
+name:'  李俊民  '
+value: [ 5 , 3 , 3 , 4 , 3 ] ,
+name:'  李龏  '
+value: [ 5 , 4 , 5 , 2 , 5 ] ,
+name:'  马钰  '
+value: [ 4 , 4 , 4 , 5 , 5 ] ,
+name:'  元好问  '
+value: [ 5 , 5 , 5 , 4 , 5 ] ,
+name:'  胡奎  '
+value: [ 5 , 3 , 3 , 3 , 5 ] ,
+name:'  方回  '
+value: [ 5 , 4 , 3 , 3 , 4 ] ,
+name:'  邹浩  '
+value: [ 5 , 5 , 4 , 5 , 3 ] ,
+name:'  张昱  '
+value: [ 5 , 4 , 4 , 5 , 3 ] ,
+name:'  凌云翰  '
+value: [ 5 , 5 , 3 , 3 , 2 ] ,
+name:'  张翥  '
+value: [ 5 , 3 , 3 , 4 , 3 ] ,
+name:'  杨维桢  '
+value: [ 4 , 5 , 5 , 3 , 3 ] ,
+name:'  赵秉文  '
+value: [ 4 , 3 , 4 , 2 , 4 ] ,
+name:'  刘崧  '
+value: [ 5 , 5 , 5 , 3 , 2 ] ,
+name:'  耶律楚材  '
+value: [ 4 , 5 , 3 , 2 , 4 ] ,
+name:'  王冕  '
+value: [ 4 , 4 , 5 , 5 , 4 ] ,
+name:'  仇远  '
+value: [ 5 , 4 , 5 , 3 , 2 ] ,
+name:'  萨都剌  '
+value: [ 5 , 4 , 5 , 2 , 4 ] ,
+name:'  欧大任  '
+value: [ 4 , 4 , 5 , 3 , 4 ] ,
+name:'  释今无  '
+value: [ 4 , 3 , 4 , 2 , 3 ] ,
+name:'  王彦泓  '
+value: [ 5 , 3 , 5 , 3 , 2 ] ,
+name:'  邓云霄  '
+value: [ 5 , 4 , 4 , 2 , 2 ] ,
+name:'  庄昶  '
+value: [ 5 , 4 , 5 , 2 , 2 ] ,
+name:'  黄省曾  '
+value: [ 4 , 4 , 3 , 2 , 2 ] ,
+name:'  卢龙云  '
+value: [ 4 , 5 , 4 , 2 , 2 ] ,
+name:'  于慎行  '
+value: [ 5 , 4 , 4 , 5 , 3 ] ,
+name:'  李白  '
+value: [ 5 , 5 , 4 , 5 , 4 ] ,
+name:'  杜甫  '
+value: [ 4 , 5 , 3 , 2 , 5 ] ,
+name:'  元稹  '
+value: [ 4 , 4 , 5 , 2 , 3 ] ,
+name:'  林光  '
+value: [ 4 , 5 , 3 , 5 , 5 ] ,
+name:'  齐己  '
+value: [ 4 , 5 , 3 , 5 , 2 ] ,
+name:'  吴与弼  '
+value: [ 4 , 4 , 5 , 3 , 5 ] ,
+name:'  皎然  '
+value: [ 5 , 3 , 4 , 5 , 5 ] ,
+name:'  贯休  '
+value: [ 5 , 3 , 3 , 5 , 3 ] ,
+name:'  王慎中  '
+value: [ 4 , 5 , 5 , 4 , 4 ] ,
+name:'  白居易  '
+value: [ 4 , 3 , 5 , 4 , 4 ] ,
+name:'  刘禹锡  '
+value: [ 4 , 5 , 5 , 3 , 4 ] ,
+name:'  李商隐  '
+value: [ 4 , 4 , 4 , 5 , 5 ] ,
+name:'  程敏政  '
+value: [ 4 , 4 , 4 , 4 , 2 ] ,
+name:'  韦应物  '
+value: [ 5 , 5 , 4 , 5 , 3 ] ,
+name:'  刘长卿  '
+value: [ 4 , 4 , 3 , 3 , 3 ] ,
+name:'  陆龟蒙  '
+value: [ 4 , 3 , 3 , 2 , 3 ] ,
+name:'  何吾驺  '
+value: [ 5 , 3 , 4 , 5 , 4 ] ,
+name:'  王渐逵  '
+value: [ 5 , 5 , 3 , 5 , 3 ] ,
+name:'  陈琏  '
+value: [ 5 , 3 , 3 , 3 , 2 ] ,
+name:'  区大相  '
+value: [ 5 , 5 , 5 , 2 , 5 ] ,
+name:'  皇甫汸  '
+value: [ 5 , 4 , 5 , 5 , 4 ] ,
+name:'  胡应麟  '
+value: [ 5 , 3 , 3 , 4 , 4 ] ,
+name:'  朱诚泳  '
+value: [ 4 , 4 , 5 , 4 , 4 ] ,
+name:'  张宁  '
+value: [ 4 , 4 , 3 , 5 , 4 ] ,
+name:'  陆深  '
+value: [ 5 , 3 , 3 , 3 , 2 ] ,
+name:'  金幼孜  '
+value: [ 4 , 5 , 4 , 5 , 5 ] ,
+name:'  佘翔  '
+value: [ 4 , 3 , 3 , 5 , 4 ] ,
+name:'  李之世  '
+value: [ 5 , 4 , 4 , 2 , 5 ] ,
+name:'  徐熥  '
+value: [ 5 , 3 , 5 , 3 , 4 ] ,
+name:'  张元凯  '
+value: [ 5 , 3 , 4 , 4 , 3 ] ,
+name:'  王鏊  '
+value: [ 4 , 5 , 4 , 4 , 2 ] ,
+name:'  薛瑄  '
+value: [ 5 , 3 , 4 , 5 , 4 ] ,
+name:'  郭之奇  '
+value: [ 5 , 3 , 4 , 5 , 5 ] ,
+name:'  张萱  '
+value: [ 4 , 5 , 3 , 2 , 2 ] ,
+name:'  郑真  '
+value: [ 4 , 3 , 3 , 3 , 3 ] ,
+name:'  陶安  '
+value: [ 5 , 3 , 3 , 5 , 5 ] ,
+name:'  黎民表  '
+value: [ 4 , 5 , 4 , 4 , 2 ] ,
+name:'  王恭  '
+value: [ 4 , 5 , 5 , 5 , 5 ] ,
+name:'  徐渭  '
+value: [ 4 , 5 , 4 , 4 , 2 ] ,
+name:'  王夫之  '
+value: [ 4 , 5 , 4 , 3 , 5 ] ,
+name:'  边贡  '
+value: [ 4 , 3 , 4 , 2 , 5 ] ,
+name:'  宗臣  '
+value: [ 4 , 3 , 3 , 2 , 4 ] ,
+name:'  杨士奇  '
+value: [ 4 , 3 , 3 , 3 , 5 ] ,
+name:'  顾璘  '
+value: [ 4 , 5 , 3 , 5 , 2 ] ,
+name:'  顾清  '
+value: [ 5 , 5 , 3 , 2 , 4 ] ,
+name:'  庞嵩  '
+value: [ 4 , 4 , 3 , 4 , 3 ] ,
+name:'  释函是  '
+value: [ 4 , 5 , 4 , 4 , 2 ] ,
+name:'  释函可  '
+value: [ 4 , 3 , 3 , 3 , 2 ] ,
+name:'  杨慎  '
+value: [ 5 , 5 , 4 , 3 , 3 ] ,
+name:'  文徵明  '
+value: [ 5 , 3 , 5 , 3 , 3 ] ,
+name:'  王世贞  '
+value: [ 4 , 4 , 5 , 5 , 5 ] ,
+name:'  张弼  '
+value: [ 5 , 5 , 4 , 4 , 3 ] ,
+name:'  袁宏道  '
+value: [ 5 , 4 , 5 , 5 , 3 ] ,
+name:'  刘基  '
+value: [ 4 , 3 , 4 , 2 , 3 ] ,
+name:'  李梦阳  '
+value: [ 4 , 3 , 4 , 5 , 5 ] ,
+name:'  高启  '
+value: [ 5 , 4 , 3 , 4 , 5 ] ,
+name:'  谢榛  '
+value: [ 4 , 5 , 4 , 3 , 3 ] ,
+name:'  姚燮  '
+value: [ 5 , 3 , 5 , 5 , 3 ] ,
+name:'  成鹫  '
+value: [ 5 , 5 , 5 , 5 , 4 ] ,
+name:'  林朝崧  '
+value: [ 4 , 3 , 5 , 3 , 2 ] ,
+name:'  郑孝胥  '
