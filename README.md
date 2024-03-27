@@ -1,8 +1,3 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });
-</script> 
-
 # Project Design
 In the 21st century, although people's pace of life has accelerated, they have long been accustomed to modern life, and we even write more English than Chinese characters in our daily life, but we still have to remember that the traditional culture of the Chinese nation is broad and profound, with a long history.   
 In today's era, college students may click on a hundred words and memorize words every day, but they may not have read poetry as a traditional culture for months. Based on this, we developed this website called "Seeking Poetry", which means to find wonderful chapters in ancient poetry to present a colorful ancient poetry culture.
@@ -418,6 +413,7 @@ def store_poem():
 &emsp;&emsp;Limited by time and energy, it was impossible to learn deep learning from scratch, so we used [code](https://github.com/AaronJny/DeepLearningExamples/tree/master/tf2-rnn-poetry-generator) already available on github.
 &emsp;&emsp;After 8 hours of feeding 270,000 five-character and seven-character poems, we generate an AI model.
 The generated ancient poems are shown in the picture.
+
 ![根据首句生成](static/根据首句生成.png)
 ![藏头诗歌](static/藏头诗歌.png)
 ![随机生成](static/随机生成.png)
