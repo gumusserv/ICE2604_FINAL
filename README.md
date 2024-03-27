@@ -418,7 +418,7 @@ def store_poem():
 &emsp;&emsp;Limited by time and energy, it was impossible to learn deep learning from scratch, so we used [code](https://github.com/AaronJny/DeepLearningExamples/tree/master/tf2-rnn-poetry-generator) already available on github.
 &emsp;&emsp;After 8 hours of feeding 270,000 five-character and seven-character poems, we generate an AI model.
 The generated ancient poems are shown in the picture.
-![根据首句生成](static\根据首句生成.png)
+![根据首句生成](static/根据首句生成.png)
 ![藏头诗歌](static\藏头诗歌.png)
 ![随机生成](static\随机生成.png)
 
