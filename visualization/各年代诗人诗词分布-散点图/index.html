@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>各朝代诗人数目与诗词总量</title>
+
+        <script src="echarts.js"></script>
+
+
+    </head>
+    <body>
+        <div id="main" style="width:1600px;height:900px;"></div>
+        <script type="text/javascript">
+
+            var chartDom = document.getElementById('main');
+            var myChart = echarts.init(chartDom);
+            var option;
+const data = [
+  [
+
+    [30239, 578, 4040000000, '元','平均比率'],
+    [751, 65, 440000000, '两汉', '平均比率'],
+    [5295, 264, 1600000000, '南北朝', '平均比率'],
+    [41183, 2057, 8000000000, '唐', '平均比率'],
+    [98026, 2457, 12800000000, '宋', '平均比率'],
+    [114036, 2395, 1100000000, '明', '平均比率'],
+    [43016, 3529, 2700000000, '清', '平均比率'],
+    [18660, 1860, 4000000000, '魏晋', '平均比率'],
+    [58150, 1580, 1470000000, '金', '平均比率'],
+
+
+  ],
+
+];
+                option = {
+                  backgroundColor: new echarts.graphic.RadialGradient(0.3, 0.3, 0.8, [
+                    {
+                      offset: 0,
+                      color: '#f7f8fa'
+                    },
+                    {
+                      offset: 1,
+                      color: '#cdd0d5'
+                    }
+                  ]),
+                  title: {
+                    text: '各朝代诗人数目与诗词总量',
+                    left: '5%',
+                    top: '3%'
+                  },
+                  legend: {
+                    right: '10%',
+                    top: '3%',
+                    data: ['平均比率']
+                  },
+                  grid: {
+                    left: '8%',
+                    top: '10%'
+                  },
+                  xAxis: {
+                    splitLine: {
+                      lineStyle: {
+                        type: 'dashed'
+                      }
+                    }
+                  },
+                  yAxis: {
+                    splitLine: {
+                      lineStyle: {
+                        type: 'dashed'
+                      }
+                    },
+                    scale: true
+                  },
+                  series: [
+                    {
+                      name: '平均比率',
+                      data: data[0],
+                      type: 'scatter',
+                      symbolSize: function (data) {
+                        return Math.sqrt(data[2]) / 5e2;
+                      },
+                      emphasis: {
+                        focus: 'series',
+                        label: {
+                          show: true,
+                          formatter: function (param) {
+                            return param.data[3];
+                          },
+                          position: 'top'
+                        }
+                      },
+                      itemStyle: {
+                        shadowBlur: 10,
+                        shadowColor: 'rgba(120, 36, 50, 0.5)',
+                        shadowOffsetY: 5,
+                        color: new echarts.graphic.RadialGradient(0.4, 0.3, 1, [
+                          {
+                            offset: 0,
+                            color: 'rgb(251, 118, 123)'
+                          },
+                          {
+                            offset: 1,
+                            color: 'rgb(204, 46, 72)'
+                          }
+                        ])
+                      }
+                    },
+
+                  ]
+                };
+
+            option && myChart.setOption(option);
+
+        </script>
+
+
+    </body>
+
+</html>
+

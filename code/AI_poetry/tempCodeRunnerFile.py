@@ -1,1 +1,0 @@
-print(utils.generate_acrostic(tokenizer, model, head='海阔天空'))

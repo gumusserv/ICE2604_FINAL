@@ -1,3 +1,0 @@
-colorbrewer.qualitative.Dark2_7
-cartocolors.qualitative.Bold_5
-colorbrewer.qualitative.Set1_8
