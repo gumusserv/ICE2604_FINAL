@@ -1,7 +1,7 @@
-<!-- <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });
-</script> -->
+</script> 
 
 # Project Design
 In the 21st century, although people's pace of life has accelerated, they have long been accustomed to modern life, and we even write more English than Chinese characters in our daily life, but we still have to remember that the traditional culture of the Chinese nation is broad and profound, with a long history.   
