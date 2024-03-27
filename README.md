@@ -419,8 +419,8 @@ def store_poem():
 &emsp;&emsp;After 8 hours of feeding 270,000 five-character and seven-character poems, we generate an AI model.
 The generated ancient poems are shown in the picture.
 ![根据首句生成](static/根据首句生成.png)
-![藏头诗歌](static\藏头诗歌.png)
-![随机生成](static\随机生成.png)
+![藏头诗歌](static/藏头诗歌.png)
+![随机生成](static/随机生成.png)
 
 
 # Website
@@ -809,12 +809,12 @@ $$
 
 ## 3.Some Web Images 
 
-![这是图片](static\web6.png)
-![这是图片](static\web5.png)
-![这是图片](static\web4.png)
-![这是图片](static\web3.png)
-![这是图片](static\web2.png)
-![这是图片](static\web1.png)
+![这是图片](static/web6.png)
+![这是图片](static/web5.png)
+![这是图片](static/web4.png)
+![这是图片](static/web3.png)
+![这是图片](static/web2.png)
+![这是图片](static/web1.png)
 
 
 # Visualization  
@@ -949,7 +949,7 @@ data=[61,42,145,189,213,245]
 </script>
 ```
 &ensp;&ensp;The picture looks like:  
-![饼图](static\pie.png "pie")
+![饼图](static/pie.png "pie")
 
 ```html
 <script type="text/javascript">
@@ -1052,7 +1052,7 @@ const data1 = [
 
 &ensp;&ensp;The picture looks like:  
 
-![散点图](static\dots.png "dots")  
+![散点图](static/dots.png "dots")  
 
 ```html
 <script type="text/javascript">
@@ -1128,7 +1128,7 @@ const data1 = [
 
 &ensp;&ensp;The picture looks like:  
 
-![二维图](static\two_dimension.png "two_dimension")  
+![二维图](static/two_dimension.png "two_dimension")  
 
 
 #### 2.The Wordcloud Chart  
@@ -1176,7 +1176,7 @@ gen_stylecloud(
 ```
 &ensp;&ensp;The wordcloud picture looks like this:  
 
-![词云图](static\cloud1.png "wordcloud")  
+![词云图](static/cloud1.png "wordcloud")  
 
 #### 3.Gephi data relationship presentation  
 **Inspiration source**  
@@ -1196,7 +1196,7 @@ After taking this distribution algorithm, we clustered the data according to the
 
 &ensp;&ensp;The Gephi picture looks like this:  
 
-![geohi图](static\gephi.png "gephi")  
+![geohi图](static/gephi.png "gephi")  
 
 
 
@@ -1390,3 +1390,4 @@ Data and crawler：尚功虎、齐思远
 Data retrieval：张子桓、张凯乐
 Visualization：李佳航、张济昊、齐思远
 Website：齐思远、尚功虎
+
