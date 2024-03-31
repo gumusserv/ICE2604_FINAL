@@ -1,7 +1,7 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<!-- <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });
-</script>
+</script> -->
 
 # Project Design
 In the 21st century, although people's pace of life has accelerated, they have long been accustomed to modern life, and we even write more English than Chinese characters in our daily life, but we still have to remember that the traditional culture of the Chinese nation is broad and profound, with a long history.   
@@ -418,9 +418,9 @@ def store_poem():
 &emsp;&emsp;Limited by time and energy, it was impossible to learn deep learning from scratch, so we used [code](https://github.com/AaronJny/DeepLearningExamples/tree/master/tf2-rnn-poetry-generator) already available on github.
 &emsp;&emsp;After 8 hours of feeding 270,000 five-character and seven-character poems, we generate an AI model.
 The generated ancient poems are shown in the picture.
-![根据首句生成](C:\Users\Lenovo\Desktop\ICE2604_FIANL\code\static\根据首句生成.png)
-![藏头诗歌](C:\Users\Lenovo\Desktop\ICE2604_FIANL\code\static\藏头诗歌.png)
-![随机生成](C:\Users\Lenovo\Desktop\ICE2604_FIANL\code\static\随机生成.png)
+![根据首句生成](static/根据首句生成.png)
+![藏头诗歌](static/藏头诗歌.png)
+![随机生成](static/随机生成.png)
 
 
 # Website
@@ -809,12 +809,12 @@ $$
 
 ## 3.Some Web Images 
 
-![这是图片](C:\Users\Lenovo\Desktop\ICE2604_FIANL\code\static\web6.png)
-![这是图片](C:\Users\Lenovo\Desktop\ICE2604_FIANL\code\static\web5.png)
-![这是图片](C:\Users\Lenovo\Desktop\ICE2604_FIANL\code\static\web4.png)
-![这是图片](C:\Users\Lenovo\Desktop\ICE2604_FIANL\code\static\web3.png)
-![这是图片](C:\Users\Lenovo\Desktop\ICE2604_FIANL\code\static\web2.png)
-![这是图片](C:\Users\Lenovo\Desktop\ICE2604_FIANL\code\static\web1.png)
+![这是图片](static/web6.png)
+![这是图片](static/web5.png)
+![这是图片](static/web4.png)
+![这是图片](static/web3.png)
+![这是图片](static/web2.png)
+![这是图片](static/web1.png)
 
 
 # Visualization  
@@ -949,7 +949,7 @@ data=[61,42,145,189,213,245]
 </script>
 ```
 &ensp;&ensp;The picture looks like:  
-![饼图](C:\Users\Lenovo\Desktop\ICE2604_FIANL\code\static\pie.png "pie")
+![饼图](static/pie.png "pie")
 
 ```html
 <script type="text/javascript">
@@ -1052,7 +1052,7 @@ const data1 = [
 
 &ensp;&ensp;The picture looks like:  
 
-![散点图](C:\Users\Lenovo\Desktop\ICE2604_FIANL\code\static\dots.png "dots")  
+![散点图](static/dots.png "dots")  
 
 ```html
 <script type="text/javascript">
@@ -1128,7 +1128,7 @@ const data1 = [
 
 &ensp;&ensp;The picture looks like:  
 
-![二维图](C:\Users\Lenovo\Desktop\ICE2604_FIANL\code\static\two_dimension.png "two_dimension")  
+![二维图](static/two_dimension.png "two_dimension")  
 
 
 #### 2.The Wordcloud Chart  
@@ -1176,7 +1176,7 @@ gen_stylecloud(
 ```
 &ensp;&ensp;The wordcloud picture looks like this:  
 
-![词云图](C:\Users\Lenovo\Desktop\ICE2604_FIANL\code\static\cloud1.png "wordcloud")  
+![词云图](static/cloud1.png "wordcloud")  
 
 #### 3.Gephi data relationship presentation  
 **Inspiration source**  
@@ -1196,7 +1196,7 @@ After taking this distribution algorithm, we clustered the data according to the
 
 &ensp;&ensp;The Gephi picture looks like this:  
 
-![geohi图](C:\Users\Lenovo\Desktop\ICE2604_FIANL\code\static\gephi.png "gephi")  
+![geohi图](static/gephi.png "gephi")  
 
 
 
@@ -1361,7 +1361,7 @@ for i in t:
 
 Result instance:
 
-![Searching for "满船清梦"](C:\Users\Lenovo\Desktop\script type=textjavascript src=httpcdn.assets\search1.jpg)
+![Searching for "满船清梦"](static/search1.jpg)
 
 ## Other attempts: Rank common intentions in ancient poetry
 
@@ -1369,7 +1369,7 @@ In practice, we have found that we can rely on word breakers to extract imagery 
 
 One ranking example:
 
-![Ranking intentions](C:\Users\Lenovo\Desktop\script type=textjavascript src=httpcdn.assets\search2.jpg)
+![Ranking intentions](static/search2.jpg)
 
 
 # Advantages
